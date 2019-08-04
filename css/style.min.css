@@ -830,6 +830,11 @@ input[type=radio] {
 .checkbox-inline, .radio-inline {
     display: inline-block;
 }
+.form-horizontal .lyear-radio.radio-inline,
+.form-horizontal .lyear-checkbox.checkbox-inline {
+    padding-top: 0px;
+    margin-top: 8px;
+}
 
 /* 开关 */
 .lyear-switch {
